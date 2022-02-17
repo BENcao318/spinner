@@ -5,4 +5,4 @@ spin.forEach((char) => {
     process.stdout.write(`\r${char}   ${delay}`);
   }, delay);
   delay += 200;
-});
+}); 
